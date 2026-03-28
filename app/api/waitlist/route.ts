@@ -18,7 +18,7 @@ export async function POST(req: NextRequest) {
   const formBody = new URLSearchParams({
     email: email.trim().toLowerCase(),
     userGroup: '',
-    mailingLists: '',
+    mailingLists: 'cmnaswfb53a4h0i1nf6cp0mhx',
     ...(name?.trim() ? { firstName: name.trim() } : {}),
   }).toString();
 
